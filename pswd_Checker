@@ -1,0 +1,6 @@
+admin_pswd= "sCsU!1065100"
+pswd_attempt= input("Please enter the admin password: ")
+if pswd_attempt == admin_pswd:
+    print("Welcome, Admin!")
+else:
+    print("Incorrect, Access Denied.")  
