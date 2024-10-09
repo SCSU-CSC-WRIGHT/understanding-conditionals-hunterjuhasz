@@ -1,0 +1,5 @@
+temperature = float(input("What's the current temperature in Celsius? "))
+if temperature > 30:
+print("It's a hot day! Stay cool!")
+else:
+    print("The weather is cool. Stay warm!")
